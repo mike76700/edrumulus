@@ -97,15 +97,15 @@ void preset_settings()
 {
   // default MIDI note assignments
   edrumulus.set_midi_notes      ( 0, 38, 40 ); // snare
-  edrumulus.set_midi_notes      ( 1, 36, 36 ); // kick
-  edrumulus.set_midi_notes      ( hihat_pad_idx, 22 /*42*/, 22 );
-  edrumulus.set_midi_notes_open ( hihat_pad_idx, 26 /*46*/, 26 );
-  edrumulus.set_midi_notes      ( hihatctrl_pad_idx, 44, 44 ); // Hi-Hat pedal hit
-  edrumulus.set_midi_notes      ( 4, 49, 55 ); // crash
-  edrumulus.set_midi_notes      ( 5, 48, 50 ); // tom 1
-  edrumulus.set_midi_notes      ( 6, 51, 53 /*59*/ ); // ride (edge: 59, bell: 53)
-  edrumulus.set_midi_notes      ( 7, 45, 47 ); // tom 2
-  edrumulus.set_midi_notes      ( 8, 43, 58 ); // tom 3
+  //edrumulus.set_midi_notes      ( 1, 36, 36 ); // kick
+  //edrumulus.set_midi_notes      ( hihat_pad_idx, 22 /*42*/, 22 );
+  //edrumulus.set_midi_notes_open ( hihat_pad_idx, 26 /*46*/, 26 );
+  //edrumulus.set_midi_notes      ( hihatctrl_pad_idx, 44, 44 ); // Hi-Hat pedal hit
+  //edrumulus.set_midi_notes      ( 4, 49, 55 ); // crash
+  //edrumulus.set_midi_notes      ( 5, 48, 50 ); // tom 1
+  //edrumulus.set_midi_notes      ( 6, 51, 53 /*59*/ ); // ride (edge: 59, bell: 53)
+  //edrumulus.set_midi_notes      ( 7, 45, 47 ); // tom 2
+  //edrumulus.set_midi_notes      ( 8, 43, 58 ); // tom 3
 
   // default drum kit setup
 #ifdef USE_PROTOTYPE1
@@ -132,14 +132,14 @@ void preset_settings()
   edrumulus.set_cancellation ( 8, 4 );
 #else
   edrumulus.set_pad_type ( 0, Edrumulus::PD80R ); // snare
-  edrumulus.set_pad_type ( 1, Edrumulus::KD7 );   // kick
-  edrumulus.set_pad_type ( 2, Edrumulus::CY5 );   // Hi-Hat
-  edrumulus.set_pad_type ( 3, Edrumulus::FD8 );   // Hi-Hat-ctrl
-  edrumulus.set_pad_type ( 4, Edrumulus::CY8 );   // crash
-  edrumulus.set_pad_type ( 5, Edrumulus::PD8 );   // tom 1
-  edrumulus.set_pad_type ( 6, Edrumulus::PD8 );   // ride
-  edrumulus.set_pad_type ( 7, Edrumulus::PD8 );   // tom 2
-  edrumulus.set_pad_type ( 8, Edrumulus::PD8 );   // tom 3
+  //edrumulus.set_pad_type ( 1, Edrumulus::KD7 );   // kick
+  //edrumulus.set_pad_type ( 2, Edrumulus::CY5 );   // Hi-Hat
+  //edrumulus.set_pad_type ( 3, Edrumulus::FD8 );   // Hi-Hat-ctrl
+  //edrumulus.set_pad_type ( 4, Edrumulus::CY8 );   // crash
+  //edrumulus.set_pad_type ( 5, Edrumulus::PD8 );   // tom 1
+  //edrumulus.set_pad_type ( 6, Edrumulus::PD8 );   // ride
+  //edrumulus.set_pad_type ( 7, Edrumulus::PD8 );   // tom 2
+  //edrumulus.set_pad_type ( 8, Edrumulus::PD8 );   // tom 3
 #endif
 }
 
